@@ -15,10 +15,12 @@
     double _total;
     NSInteger _obutton;
     NSString *_oprand;
-    
+    NSInteger _n;
 
 }
 @property (weak, nonatomic) IBOutlet UITextField *displayText;
--(void)simple;
+-(void)get_fnum;
+    
+-(void)display_text:(double)total;
 @end
 
